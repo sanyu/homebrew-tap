@@ -8,7 +8,7 @@ Add this tap to your Brewfile:
 
 ```ruby
 tap "sanyu/tap"
-brew "sanyu/tap/toggl"
+brew "sanyu/tap/toggl-cli"
 brew "sanyu/tap/tg"
 ```
 
@@ -22,7 +22,7 @@ brew bundle
 
 | Formula | Description |
 |---------|-------------|
-| `toggl` | Command line app for Toggl Track time tracking |
+| `toggl-cli` | Command line app for Toggl Track time tracking |
 | `tg` | Toggl CLI wrapper with clipboard support for macOS |
 
 ## Usage

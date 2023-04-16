@@ -1,4 +1,4 @@
-class Toggl < Formula
+class TogglCli < Formula
   desc "Command line app for Toggl Track time tracking"
   homepage "https://github.com/watercooler-labs/toggl-cli"
   version "0.1.1"
