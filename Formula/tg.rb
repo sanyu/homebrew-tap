@@ -1,8 +1,8 @@
 class Tg < Formula
   desc "Toggl CLI wrapper with clipboard support for macOS"
   homepage "https://github.com/sanyu/alfred-toggl"
-  url "https://github.com/sanyu/alfred-toggl/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "2401526e31a5b533e869f705c90cfb21118975644f1986c09cb69969b862062c"
+  url "https://github.com/sanyu/alfred-toggl/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "05577bc5399613a1a3a79fc989a9ac57933ba502b08619222c0aa8bf420afd2e"
   license "MIT"
 
   depends_on "sanyu/tap/toggl-cli"
