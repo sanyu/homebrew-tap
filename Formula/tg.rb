@@ -6,6 +6,8 @@ class Tg < Formula
   license "MIT"
 
   depends_on "sanyu/tap/toggl-cli"
+  depends_on "todoist-cli"
+  depends_on "jq"
 
   def install
     bin.install "tg"
