@@ -1,17 +1,17 @@
 class TogglCli < Formula
   desc "Command line app for Toggl Track time tracking"
   homepage "https://github.com/watercooler-labs/toggl-cli"
-  version "0.4.8"
+  version "0.4.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.8/toggl-aarch64-apple-darwin-0.4.8.zip"
-      sha256 "19e6096292396d256cce2f00ad8de581f0759b1ac3d3f31220ac417ce8abe0f9"
+      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.9/toggl-aarch64-apple-darwin-0.4.9.zip"
+      sha256 "9cf29cc8faad0e506449925b30af7e6e784e9e5eadd029783b155a6719c76046"
     end
     on_intel do
-      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.8/toggl-x86_64-apple-darwin-0.4.8.zip"
-      sha256 "08c63c6c82be17e166f007316d71f590f1f5e45adf3c7d5cfa234d447acd9775"
+      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.9/toggl-x86_64-apple-darwin-0.4.9.zip"
+      sha256 "4c2f1ab87ae65a96f961cf676f589dbec5b6826e6dbd4d68271d310c249a871c"
     end
   end
 
