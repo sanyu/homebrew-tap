@@ -6,11 +6,11 @@ class TogglCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.11/toggl-aarch64-apple-darwin-0.4.11.zip"
+      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.11/toggl-aarch64-apple-darwin-0.4.1.zip"
       sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
     on_intel do
-      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.11/toggl-x86_64-apple-darwin-0.4.11.zip"
+      url "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.4.11/toggl-x86_64-apple-darwin-0.4.1.zip"
       sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
