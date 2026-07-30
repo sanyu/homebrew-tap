@@ -1,25 +1,25 @@
 class Roost < Formula
   desc "Non-custodial CLI for Aerodrome single-sided snuggle liquidity positions"
   homepage "https://github.com/sanyu/roost-cli"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sanyu/roost-cli/releases/download/v0.7.0/roost-darwin-arm64"
-      sha256 "95241660affcf1604c6ca92108aed95857a31b0f05405e52cc4cfec21a090579"
+      url "https://github.com/sanyu/roost-cli/releases/download/v0.8.0/roost-darwin-arm64"
+      sha256 "16f7388f9a7de144efd2c87e4e13ddd125636a6d9878ad5b9587362f6fc45239"
     else
-      url "https://github.com/sanyu/roost-cli/releases/download/v0.7.0/roost-darwin-amd64"
-      sha256 "3e2eec36319bd737fa3effd45282c088ea42857849d1348f2321d81158890f9e"
+      url "https://github.com/sanyu/roost-cli/releases/download/v0.8.0/roost-darwin-amd64"
+      sha256 "7b34d31afe1c67feb5d100ef8b0801d1a7ff558cf8bb579a1ea678fa0dcc409a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sanyu/roost-cli/releases/download/v0.7.0/roost-linux-arm64"
-      sha256 "ee42fc483883a2b24734355e2978723d62ef811678126f3cd28023d101389dd5"
+      url "https://github.com/sanyu/roost-cli/releases/download/v0.8.0/roost-linux-arm64"
+      sha256 "61e0cefe6e5b086ee6b5bd25d39c118db95aacc7ea50aed1353ba4897d28420e"
     else
-      url "https://github.com/sanyu/roost-cli/releases/download/v0.7.0/roost-linux-amd64"
-      sha256 "87092cf37905569b614c86d5746f37a45fa4ae1ff74fc6587781dc106741eaaf"
+      url "https://github.com/sanyu/roost-cli/releases/download/v0.8.0/roost-linux-amd64"
+      sha256 "c9060e8d3e0f49c9f0427ef4392a8dff5185d8c2b68c3f3a9913753dcbd36bb2"
     end
   end
 
