@@ -1,13 +1,13 @@
 class Roost < Formula
   desc "Non-custodial CLI for Aerodrome single-sided snuggle liquidity positions"
   homepage "https://github.com/sanyu/roost-cli"
-  version "0.15.0"
+  version "1.0.0"
 
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/sanyu/roost-cli/releases/download/v0.15.0/roost-darwin-arm64"
-  sha256 "1b9a53e38e9ebe5b370bd8a59641e6329c5ae2ad3465bb3816ae571d6f799b5a"
+  url "https://github.com/sanyu/roost-cli/releases/download/v1.0.0/roost-darwin-arm64"
+  sha256 "43e5ce421e34e3a1e6ef5b216deee35eb66a1dbcfa31486a93b5bd9580e6fe6a"
 
   def install
     bin.install Dir["roost-*"].first => "roost"
