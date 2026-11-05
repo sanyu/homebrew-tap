@@ -5,9 +5,9 @@ class Tg < Formula
   sha256 "91ada2cbfbef2b1bfe99c8860d33d63d5a15f467db347d4ec5d8eda61be86995"
   license "MIT"
 
+  depends_on "jq"
   depends_on "sanyu/tap/toggl-cli"
   depends_on "todoist-cli"
-  depends_on "jq"
 
   def install
     bin.install "tg"
