@@ -24,6 +24,7 @@ brew bundle
 |---------|-------------|
 | `toggl-cli` | Command line app for Toggl Track time tracking |
 | `tg` | Toggl CLI wrapper with clipboard support for macOS |
+| `iron-proxy` | Egress proxy that injects vault-held credentials into allowlisted requests (built from source, bottled for macOS arm64 and Linux x86_64) |
 
 ## Bottles
 
