@@ -6,6 +6,12 @@ class IronProxy < Formula
   license "Apache-2.0"
   revision 1
 
+  bottle do
+    root_url "https://github.com/sanyu/homebrew-tap/releases/download/iron-proxy-0.54.0_1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "d27d4806afa927af45b0a173d3d25d1ccec181dcfe959c6d81100f7cfa69d75c"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2f1b90aab7073d8880899826ec4830dbca17b193e7faae64d58bacff6fa66a5b"
+  end
+
   depends_on "go" => :build
 
   # oauth_token entries may name the placeholder the client sends, so several
